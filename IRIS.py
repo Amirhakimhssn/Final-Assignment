@@ -27,7 +27,7 @@ st.subheader('User Input parameters')
 st.write(df)
 
 iris = pd.read_csv('https://raw.githubusercontent.com/Amirhakimhssn/Final-Assignment/main/IRIS.csv')
-X = iris['sepal_length',	'sepal_width',	'petal_length'	, 'petal_width']
+X = iris['sepal_length', 'sepal_width',	'petal_length'	, 'petal_width']
 Y = iris['species']
 
 clf = RandomForestClassifier()
@@ -40,8 +40,8 @@ st.subheader('Class labels and their corresponding index number')
 st.write(iris.target_names)
 
 st.subheader('Prediction')
-st.write(iris.target_names[prediction])
-#st.write(prediction)
+#st.write(iris.target_names[prediction])
+st.write(prediction)
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)

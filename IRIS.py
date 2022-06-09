@@ -41,7 +41,7 @@ st.subheader('Class labels and their corresponding index number')
 st.write(['setosa', 'versicolor', 'virginica'])
 
 st.subheader('Prediction')
-st.write(Y[prediction])
+st.write(Y.name[prediction])
 #st.write(prediction)
 
 st.subheader('Prediction Probability')

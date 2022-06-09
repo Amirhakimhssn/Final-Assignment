@@ -3,6 +3,18 @@ import pandas as pd
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 
+st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background: url("https://wallpaperaccess.com/full/1442216.jpg")
+    }
+  
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 st.write("""
 # Simple Iris Flower Prediction App
 This app predicts the **Iris flower** type!
